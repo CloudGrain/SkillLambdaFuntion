@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SkillLambda</id>
+    <version>1.0.0</version>
+    <authors>SkillLambda</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Alexa.NET" version="1.20.0" exclude="Build,Analyzers" />
+        <dependency id="Amazon.Lambda.Core" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Amazon.Lambda.Serialization.Json" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="Amazon.Lambda.Serialization.SystemTextJson" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+        <dependency id="RestSharp" version="107.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ashokkum\source\repos\SkillLambda\bin\Release\net6.0\SkillLambda.runtimeconfig.json" target="lib\net6.0\SkillLambda.runtimeconfig.json" />
+    <file src="C:\Users\ashokkum\source\repos\SkillLambda\bin\Release\net6.0\SkillLambda.dll" target="lib\net6.0\SkillLambda.dll" />
+  </files>
+</package>
